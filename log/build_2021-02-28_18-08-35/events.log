@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000827] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000919] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000961] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001026] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001200] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.029329] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.033482] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.035171] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1338'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1021'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:39353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1392,unix/jalil:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'f5b17aea9c2846478221dee63de370eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9459f8b9_e599_43d7_b37b_45c1ea4321c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.090768] (-) TimerEvent: {}
+[0.098149] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.147700] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.148104] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.190854] (-) TimerEvent: {}
+[0.291326] (-) TimerEvent: {}
+[0.391733] (-) TimerEvent: {}
+[0.492201] (-) TimerEvent: {}
+[0.532181] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.539074] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.551167] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.592329] (-) TimerEvent: {}
+[0.692784] (-) TimerEvent: {}
+[0.780525] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.792915] (-) TimerEvent: {}
+[0.827821] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.893052] (-) TimerEvent: {}
+[0.926301] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.930569] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.993192] (-) TimerEvent: {}
+[1.093660] (-) TimerEvent: {}
+[1.194169] (-) TimerEvent: {}
+[1.292360] (tutorial_interfaces) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.294313] (-) TimerEvent: {}
+[1.368050] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.394448] (-) TimerEvent: {}
+[1.494933] (-) TimerEvent: {}
+[1.595411] (-) TimerEvent: {}
+[1.640680] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.695549] (-) TimerEvent: {}
+[1.796061] (-) TimerEvent: {}
+[1.829605] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.855390] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.896154] (-) TimerEvent: {}
+[1.905140] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.906019] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.954241] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.959417] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.959743] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.995406] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.996298] (-) TimerEvent: {}
+[2.018749] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.021296] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.024820] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.025288] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.026947] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.027431] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.029626] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.033245] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.034032] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.034812] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.044670] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.096435] (-) TimerEvent: {}
+[2.169497] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.186905] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces\n'}
+[2.196905] (-) TimerEvent: {}
+[2.297376] (-) TimerEvent: {}
+[2.314810] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__cpp\n'}
+[2.342918] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service\x1b[0m\n'}
+[2.363216] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[2.400429] (-) TimerEvent: {}
+[2.447463] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/add_three_ints_service.cpp.o\x1b[0m\n'}
+[2.464754] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] Built target talker\n'}
+[2.484476] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[2.500595] (-) TimerEvent: {}
+[2.601110] (-) TimerEvent: {}
+[2.634438] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o\x1b[0m\n'}
+[2.701257] (-) TimerEvent: {}
+[2.801739] (-) TimerEvent: {}
+[2.902267] (-) TimerEvent: {}
+[3.002845] (-) TimerEvent: {}
+[3.103332] (-) TimerEvent: {}
+[3.203865] (-) TimerEvent: {}
+[3.304392] (-) TimerEvent: {}
+[3.404921] (-) TimerEvent: {}
+[3.505530] (-) TimerEvent: {}
+[3.606056] (-) TimerEvent: {}
+[3.710296] (-) TimerEvent: {}
+[3.814123] (-) TimerEvent: {}
+[3.915263] (-) TimerEvent: {}
+[4.015772] (-) TimerEvent: {}
+[4.116284] (-) TimerEvent: {}
+[4.216842] (-) TimerEvent: {}
+[4.317377] (-) TimerEvent: {}
+[4.417888] (-) TimerEvent: {}
+[4.518460] (-) TimerEvent: {}
+[4.618968] (-) TimerEvent: {}
+[4.719479] (-) TimerEvent: {}
+[4.820027] (-) TimerEvent: {}
+[4.920547] (-) TimerEvent: {}
+[5.022928] (-) TimerEvent: {}
+[5.123561] (-) TimerEvent: {}
+[5.224081] (-) TimerEvent: {}
+[5.324599] (-) TimerEvent: {}
+[5.425161] (-) TimerEvent: {}
+[5.525692] (-) TimerEvent: {}
+[5.626212] (-) TimerEvent: {}
+[5.726813] (-) TimerEvent: {}
+[5.827319] (-) TimerEvent: {}
+[5.927900] (-) TimerEvent: {}
+[6.028436] (-) TimerEvent: {}
+[6.128942] (-) TimerEvent: {}
+[6.229535] (-) TimerEvent: {}
+[6.330050] (-) TimerEvent: {}
+[6.430566] (-) TimerEvent: {}
+[6.531130] (-) TimerEvent: {}
+[6.631664] (-) TimerEvent: {}
+[6.732190] (-) TimerEvent: {}
+[6.832740] (-) TimerEvent: {}
+[6.933262] (-) TimerEvent: {}
+[7.033794] (-) TimerEvent: {}
+[7.134349] (-) TimerEvent: {}
+[7.234882] (-) TimerEvent: {}
+[7.335390] (-) TimerEvent: {}
+[7.435957] (-) TimerEvent: {}
+[7.536486] (-) TimerEvent: {}
+[7.637004] (-) TimerEvent: {}
+[7.737579] (-) TimerEvent: {}
+[7.838110] (-) TimerEvent: {}
+[7.938637] (-) TimerEvent: {}
+[8.039196] (-) TimerEvent: {}
+[8.139698] (-) TimerEvent: {}
+[8.240342] (-) TimerEvent: {}
+[8.340835] (-) TimerEvent: {}
+[8.441323] (-) TimerEvent: {}
+[8.541915] (-) TimerEvent: {}
+[8.553551] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX executable service\x1b[0m\n'}
+[8.642126] (-) TimerEvent: {}
+[8.742656] (-) TimerEvent: {}
+[8.843178] (-) TimerEvent: {}
+[8.944337] (-) TimerEvent: {}
+[8.967440] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] Built target service\n'}
+[9.044271] (-) TimerEvent: {}
+[9.065159] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] Built target listener\n'}
+[9.121103] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[9.144432] (-) TimerEvent: {}
+[9.169874] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.230375] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.244592] (-) TimerEvent: {}
+[9.291873] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.341624] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[9.348259] (-) TimerEvent: {}
+[9.442937] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.448421] (-) TimerEvent: {}
+[9.557313] (-) TimerEvent: {}
+[9.566136] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[9.662933] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[9.663302] (-) TimerEvent: {}
+[9.763677] (-) TimerEvent: {}
+[9.773085] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] Built target tutorial_interfaces__python\n'}
+[9.855435] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.863814] (-) TimerEvent: {}
+[9.942822] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.963980] (-) TimerEvent: {}
+[10.019401] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.064136] (-) TimerEvent: {}
+[10.125158] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[10.164304] (-) TimerEvent: {}
+[10.264856] (-) TimerEvent: {}
+[10.365498] (-) TimerEvent: {}
+[10.465998] (-) TimerEvent: {}
+[10.476233] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target client\n'}
+[10.506116] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[10.566153] (-) TimerEvent: {}
+[10.666687] (-) TimerEvent: {}
+[10.739292] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[10.765694] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces'], 'cwd': '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1338'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1021'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:39353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1392,unix/jalil:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'f5b17aea9c2846478221dee63de370eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9459f8b9_e599_43d7_b37b_45c1ea4321c4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[10.776507] (-) TimerEvent: {}
+[10.801863] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.802439] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[10.802721] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.804493] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.804888] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.805186] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[10.805433] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[10.806000] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[10.806357] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[10.806622] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h\n'}
+[10.806930] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.808669] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.810929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.811495] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[10.812829] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[10.813207] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[10.816021] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[10.817550] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h\n'}
+[10.822871] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[10.823382] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[10.823627] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[10.823862] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.824065] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.824316] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.824529] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[10.824758] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.824970] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.827209] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[10.827616] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.827909] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.828238] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.828494] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.828767] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.829079] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[10.829406] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.829642] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.829869] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.830064] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.830297] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[10.830532] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.840894] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.841219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.841421] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.841606] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.841820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[10.842100] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[10.842359] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.842583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.842849] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[10.843095] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[10.843366] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.843570] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.843783] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[10.844002] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.844216] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.844458] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.844666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[10.844892] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[10.845147] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[10.845387] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[10.845611] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.845811] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.846044] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[10.846300] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[10.846519] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[10.854820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp\n'}
+[10.855180] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces\n'}
+[10.855441] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv\n'}
+[10.855650] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail\n'}
+[10.855838] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.856042] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[10.856338] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg\n'}
+[10.856566] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail\n'}
+[10.856769] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.856981] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[10.857236] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.857463] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.857690] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[10.857888] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[10.858100] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py\n'}
+[10.876646] (-) TimerEvent: {}
+[10.942109] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[10.955631] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg\n'}
+[10.956115] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[10.956348] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[10.956571] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[10.956731] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv\n'}
+[10.956881] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[10.957049] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[10.957199] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[10.957496] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.957850] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.958858] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.959671] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so\n'}
+[10.960125] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[10.960572] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[10.960857] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[10.961264] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[10.961499] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[10.961817] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[10.962095] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/talker\n'}
+[10.962361] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/listener\n'}
+[10.962659] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service\n'}
+[10.963633] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service" to ""\n'}
+[10.964108] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client\n'}
+[10.965569] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client" to ""\n'}
+[10.966144] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[10.966452] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[10.966932] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[10.968365] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.969055] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[10.969537] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[10.971014] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[10.971280] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[10.974078] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[10.974578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[10.974929] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[10.977327] (-) TimerEvent: {}
+[10.987383] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[10.987812] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.988093] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.988393] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.988683] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.988923] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.989161] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.989388] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.989652] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.989884] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.990114] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.990369] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.990655] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.991265] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.991605] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.991860] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.992115] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.992363] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.992659] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.992885] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[10.993092] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[10.993288] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[10.993520] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[11.077512] (-) TimerEvent: {}
+[11.178132] (-) TimerEvent: {}
+[11.238022] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[11.240770] (-) EventReactorShutdown: {}

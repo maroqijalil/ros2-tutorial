@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/cpp_pubsub/include/**",
+                "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/my_package/include/**",
+                "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/ros_tutorials/turtlesim/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}

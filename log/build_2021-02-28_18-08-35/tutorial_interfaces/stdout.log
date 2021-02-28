@@ -1,0 +1,196 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 0.0.0 (/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces
+[  2%] Built target tutorial_interfaces__cpp
+[35m[1mScanning dependencies of target service[0m
+[ 10%] Built target tutorial_interfaces__rosidl_generator_c
+[ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/add_three_ints_service.cpp.o[0m
+[ 17%] Built target talker
+[35m[1mScanning dependencies of target client[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable service[0m
+[ 21%] Built target service
+[ 25%] Built target listener
+[ 34%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[ 59%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target tutorial_interfaces__rosidl_typesupport_c
+[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[ 76%] Built target tutorial_interfaces
+[ 78%] Built target tutorial_interfaces__py
+[ 85%] Built target tutorial_interfaces__python
+[ 89%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+Compiling '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/talker
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/listener
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service
+-- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service" to ""
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client
+-- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client" to ""
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+-- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml

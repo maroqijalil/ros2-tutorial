@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.001183] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001309] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002073] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002196] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002237] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002320] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.002368] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.034926] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.036115] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/maroqi/Projects/ROS2Projects/first_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/ROS2Projects/first_ws/install/more_interfaces'], 'cwd': '/home/maroqi/Projects/ROS2Projects/first_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1338'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1021'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:39353'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1392,unix/jalil:/tmp/.ICE-unix/1392'), ('INVOCATION_ID', 'f5b17aea9c2846478221dee63de370eb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/85c530a9_c01e_40d8_806e_dfe96238de9e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/first_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces:/home/maroqi/Projects/ROS2Projects/first_ws/install/turtlesim:/home/maroqi/Projects/ROS2Projects/first_ws/install/my_package:/home/maroqi/Projects/ROS2Projects/first_ws/install/cpp_srvcli:/opt/ros/foxy')]), 'shell': False}
+[0.099919] (-) TimerEvent: {}
+[0.192225] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.200050] (-) TimerEvent: {}
+[0.300566] (-) TimerEvent: {}
+[0.401617] (-) TimerEvent: {}
+[0.427576] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.449373] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.501777] (-) TimerEvent: {}
+[0.602322] (-) TimerEvent: {}
+[0.647418] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.649179] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702491] (-) TimerEvent: {}
+[0.803579] (-) TimerEvent: {}
+[0.837917] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.887207] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.888002] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.897175] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.903701] (-) TimerEvent: {}
+[1.004184] (-) TimerEvent: {}
+[1.107884] (-) TimerEvent: {}
+[1.149742] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.153756] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.208025] (-) TimerEvent: {}
+[1.310525] (-) TimerEvent: {}
+[1.412850] (-) TimerEvent: {}
+[1.431459] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.479874] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.481390] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.490329] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.512973] (-) TimerEvent: {}
+[1.571983] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.572483] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.613751] (-) TimerEvent: {}
+[1.714170] (-) TimerEvent: {}
+[1.814618] (-) TimerEvent: {}
+[1.915089] (-) TimerEvent: {}
+[2.015556] (-) TimerEvent: {}
+[2.116078] (-) TimerEvent: {}
+[2.168842] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.178733] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.195689] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.216210] (-) TimerEvent: {}
+[2.316675] (-) TimerEvent: {}
+[2.417167] (-) TimerEvent: {}
+[2.433515] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.517364] (-) TimerEvent: {}
+[2.543333] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.617543] (-) TimerEvent: {}
+[2.719026] (-) TimerEvent: {}
+[2.794978] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.819165] (-) TimerEvent: {}
+[2.866897] (more_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[2.867386] (more_interfaces) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp' was not found\n"}
+[2.867571] (more_interfaces) StderrLine: {'line': b'  before\n'}
+[2.867721] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.867872] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (ament_target_dependencies)\n'}
+[2.868080] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.868593] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.869541] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.869850] (more_interfaces) StdoutLine: {'line': b'See also "/home/maroqi/Projects/ROS2Projects/first_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.892277] (more_interfaces) CommandEnded: {'returncode': 1}
+[2.919371] (-) TimerEvent: {}
+[2.962902] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[2.966527] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim -- -j2 -l2
+Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim -- -j2 -l2
+Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim
+Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim

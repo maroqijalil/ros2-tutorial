@@ -1,0 +1,31 @@
+[0.043s] Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/more_interfaces
+[0.083s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.671s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.103s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.258s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.263s] -- Looking for pthread.h
+[1.409s] -- Looking for pthread.h - found
+[1.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.566s] -- Looking for pthread_create in pthreads
+[1.701s] -- Looking for pthread_create in pthreads - not found
+[1.701s] -- Looking for pthread_create in pthread
+[1.869s] -- Looking for pthread_create in pthread - found
+[1.870s] -- Found Threads: TRUE  
+[2.335s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.335s]   rosidl_generate_interfaces() the passed file 'msg/AdressBook.msg' doesn't
+[2.335s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.335s]   '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/more_interfaces'
+[2.336s] Call Stack (most recent call first):
+[2.336s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[2.336s] 
+[2.336s] 
+[2.338s] -- Configuring incomplete, errors occurred!
+[2.339s] See also "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[2.339s] See also "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/more_interfaces/CMakeFiles/CMakeError.log".
+[2.365s] Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/more_interfaces

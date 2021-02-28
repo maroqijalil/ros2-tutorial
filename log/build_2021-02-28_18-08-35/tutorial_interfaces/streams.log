@@ -1,0 +1,200 @@
+[0.037s] Invoking command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces -- -j2 -l2
+[0.097s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.147s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.531s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.925s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.291s] -- Found tutorial_interfaces: 0.0.0 (/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.367s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.640s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.905s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.957s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.958s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.959s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.994s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.018s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.020s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.024s] -- Configured cppcheck include dirs: 
+[2.024s] -- Configured cppcheck exclude dirs and/or files: 
+[2.026s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.026s] -- Configured cpplint exclude dirs and/or files: 
+[2.029s] -- Added test 'lint_cmake' to check CMake code style
+[2.032s] -- Added test 'uncrustify' to check C / C++ code style
+[2.033s] -- Configured uncrustify additional arguments: 
+[2.034s] -- Added test 'xmllint' to check XML markup files
+[2.044s] -- Configuring done
+[2.168s] -- Generating done
+[2.186s] -- Build files have been written to: /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces
+[2.314s] [  2%] Built target tutorial_interfaces__cpp
+[2.342s] [35m[1mScanning dependencies of target service[0m
+[2.362s] [ 10%] Built target tutorial_interfaces__rosidl_generator_c
+[2.446s] [ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/add_three_ints_service.cpp.o[0m
+[2.464s] [ 17%] Built target talker
+[2.483s] [35m[1mScanning dependencies of target client[0m
+[2.633s] [ 19%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o[0m
+[8.553s] [ 21%] [32m[1mLinking CXX executable service[0m
+[8.967s] [ 21%] Built target service
+[9.064s] [ 25%] Built target listener
+[9.120s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[9.169s] [ 42%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[9.229s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[9.291s] [ 59%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.343s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_c
+[9.442s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[9.568s] [ 76%] Built target tutorial_interfaces
+[9.662s] [ 78%] Built target tutorial_interfaces__py
+[9.772s] [ 85%] Built target tutorial_interfaces__python
+[9.854s] [ 89%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[9.942s] [ 93%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.018s] [ 97%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.124s] [100%] [32m[1mLinking CXX executable client[0m
+[10.475s] [100%] Built target client
+[10.506s] Invoked command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces -- -j2 -l2
+[10.774s] Invoking command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces
+[10.801s] -- Install configuration: ""
+[10.801s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[10.802s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.803s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.804s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.804s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[10.804s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[10.805s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[10.805s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[10.806s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+[10.806s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.808s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.810s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.810s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c
+[10.812s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+[10.814s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+[10.816s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+[10.817s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[10.822s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[10.822s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[10.822s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[10.823s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.823s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.823s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.823s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[10.824s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.824s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.826s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[10.827s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.827s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.827s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.827s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.828s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.828s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps
+[10.828s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[10.828s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.829s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.829s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[10.829s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps
+[10.839s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.840s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.840s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.840s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.840s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.841s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[10.841s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[10.841s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.841s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.842s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c
+[10.842s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[10.842s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.842s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[10.843s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[10.843s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.843s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.843s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.844s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[10.844s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[10.844s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[10.844s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+[10.844s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.845s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.845s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+[10.845s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+[10.845s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+[10.854s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[10.854s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[10.854s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[10.854s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[10.855s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[10.855s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[10.855s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[10.855s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[10.856s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[10.856s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp
+[10.856s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.856s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[10.857s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[10.857s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[10.857s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[10.941s] Compiling '/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[10.955s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg
+[10.955s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c
+[10.955s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[10.955s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+[10.956s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv
+[10.956s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[10.956s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[10.956s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[10.956s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[10.957s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[10.958s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[10.959s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[10.959s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[10.959s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[10.960s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[10.960s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[10.960s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[10.961s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[10.961s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/talker
+[10.961s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/listener
+[10.962s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service
+[10.963s] -- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/service" to ""
+[10.963s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client
+[10.965s] -- Set runtime path of "/home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/lib/tutorial_interfaces/client" to ""
+[10.965s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[10.966s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[10.967s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[10.967s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[10.968s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[10.970s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[10.970s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[10.973s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[10.973s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[10.974s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[10.974s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[10.986s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[10.987s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[10.987s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.987s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.988s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.988s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[10.988s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.988s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[10.989s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.989s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.989s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[10.989s] -- Installing: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.990s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.990s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.990s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.991s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.991s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.991s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.992s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.992s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[10.992s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[10.992s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/first_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[10.993s] Invoked command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces

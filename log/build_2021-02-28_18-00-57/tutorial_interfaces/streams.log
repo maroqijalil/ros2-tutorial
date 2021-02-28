@@ -1,0 +1,55 @@
+[0.045s] Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces': /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces -- -j2 -l2
+[0.103s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.158s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.551s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.237s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.338s] -- Looking for pthread.h
+[1.502s] -- Looking for pthread.h - found
+[1.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.653s] -- Looking for pthread_create in pthreads
+[1.768s] -- Looking for pthread_create in pthreads - not found
+[1.768s] -- Looking for pthread_create in pthread
+[1.921s] -- Looking for pthread_create in pthread - found
+[1.921s] -- Found Threads: TRUE  
+[2.444s] -- Found tutorial_interfaces: 0.0.0 (/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.515s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.748s] Error parsing '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/tutorial_interfaces/package.xml':
+[2.999s] Traceback (most recent call last):
+[3.000s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[3.000s]     main()
+[3.001s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[3.001s]     raise e
+[3.002s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[3.002s]     package = parse_package_string(
+[3.003s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 773, in parse_package_string
+[3.003s]     pkg.validate(warnings=warnings)
+[3.003s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 316, in validate
+[3.012s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[3.012s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/tutorial_interfaces/package.xml':
+[3.012s] The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package
+[3.013s] The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package
+[3.013s] The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+[3.060s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[3.061s]   execute_process(/usr/bin/python3
+[3.061s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.061s]   /home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/tutorial_interfaces/package.xml
+[3.061s]   /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[3.061s]   returned error code 1
+[3.061s] Call Stack (most recent call first):
+[3.061s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.062s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.062s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[3.062s] 
+[3.062s] 
+[3.063s] -- Configuring incomplete, errors occurred!
+[3.063s] See also "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[3.064s] See also "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces/CMakeFiles/CMakeError.log".
+[3.083s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[3.088s] Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/tutorial_interfaces -- -j2 -l2

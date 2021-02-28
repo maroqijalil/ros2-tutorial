@@ -1,0 +1,29 @@
+Error parsing '/home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces/package.xml':
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+    main()
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+    raise e
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 773, in parse_package_string
+    pkg.validate(warnings=warnings)
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 316, in validate
+    raise InvalidPackage('\n'.join(errors), self.filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces/package.xml':
+The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package
+The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package
+The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/maroqi/Projects/ROS2Projects/first_ws/src/tutorial_interfaces/package.xml
+  /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+  CMakeLists.txt:30 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:988: cmake_check_build_system] Error 1

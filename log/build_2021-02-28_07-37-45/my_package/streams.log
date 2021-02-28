@@ -1,0 +1,67 @@
+[0.034s] Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package -- -j2 -l2
+[0.104s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.709s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.073s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.526s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.612s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.153s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.181s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.209s] -- Looking for pthread.h
+[2.400s] -- Looking for pthread.h - found
+[2.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.615s] -- Looking for pthread_create in pthreads
+[2.766s] -- Looking for pthread_create in pthreads - not found
+[2.767s] -- Looking for pthread_create in pthread
+[2.966s] -- Looking for pthread_create in pthread - found
+[2.966s] -- Found Threads: TRUE  
+[3.497s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.672s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.676s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.679s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/my_package/include>
+[3.680s] -- Configured cppcheck exclude dirs and/or files: 
+[3.682s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.685s] -- Configured cpplint exclude dirs and/or files: 
+[3.687s] -- Added test 'lint_cmake' to check CMake code style
+[3.691s] -- Added test 'uncrustify' to check C / C++ code style
+[3.691s] -- Configured uncrustify additional arguments: 
+[3.696s] -- Added test 'xmllint' to check XML markup files
+[3.701s] -- Configuring done
+[3.747s] -- Generating done
+[3.755s] -- Build files have been written to: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package
+[3.829s] [35m[1mScanning dependencies of target listener[0m
+[3.839s] [35m[1mScanning dependencies of target talker[0m
+[4.626s] [ 16%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.630s] [ 33%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[23.634s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[25.120s] [ 50%] Built target talker
+[29.739s] [ 66%] [32m[1mLinking CXX executable listener[0m
+[30.401s] [ 66%] Built target listener
+[30.451s] [100%] Built target my_node
+[30.479s] Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package -- -j2 -l2
+[30.592s] Invoking command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package
+[30.620s] -- Install configuration: ""
+[30.621s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/talker
+[30.624s] -- Set runtime path of "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/talker" to ""
+[30.625s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/listener
+[30.631s] -- Set runtime path of "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/listener" to ""
+[30.633s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/my_node
+[30.634s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[30.635s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[30.636s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[30.637s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[30.638s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/path.sh
+[30.639s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/path.dsv
+[30.640s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.bash
+[30.641s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.sh
+[30.642s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.zsh
+[30.643s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.dsv
+[30.645s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/package.dsv
+[30.646s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/packages/my_package
+[30.647s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[30.648s] -- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[30.649s] -- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/package.xml
+[30.656s] Invoked command in '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package

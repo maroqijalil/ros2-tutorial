@@ -1,0 +1,505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000909] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001200] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001743] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099584] (-) TimerEvent: {}
+[0.200294] (-) TimerEvent: {}
+[0.236074] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.273649] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.274128] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/my_package', '-DCMAKE_INSTALL_PREFIX=/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package'], 'cwd': '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1317'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:38643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1370,unix/jalil:/tmp/.ICE-unix/1370'), ('INVOCATION_ID', 'e4dc597118114620bb0947e2f6bff72f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e119c741_14d5_46ad_8ae6_11420b2e1d4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.300846] (-) TimerEvent: {}
+[0.346617] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.397367] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.399299] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1317'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:38643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1370,unix/jalil:/tmp/.ICE-unix/1370'), ('INVOCATION_ID', 'e4dc597118114620bb0947e2f6bff72f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e119c741_14d5_46ad_8ae6_11420b2e1d4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.405494] (-) TimerEvent: {}
+[0.506297] (-) TimerEvent: {}
+[0.607101] (-) TimerEvent: {}
+[0.707821] (-) TimerEvent: {}
+[0.808646] (-) TimerEvent: {}
+[0.909290] (-) TimerEvent: {}
+[1.010113] (-) TimerEvent: {}
+[1.110834] (-) TimerEvent: {}
+[1.211561] (-) TimerEvent: {}
+[1.312215] (-) TimerEvent: {}
+[1.412993] (-) TimerEvent: {}
+[1.513881] (-) TimerEvent: {}
+[1.614760] (-) TimerEvent: {}
+[1.715627] (-) TimerEvent: {}
+[1.816605] (-) TimerEvent: {}
+[1.917456] (-) TimerEvent: {}
+[2.018283] (-) TimerEvent: {}
+[2.119147] (-) TimerEvent: {}
+[2.219951] (-) TimerEvent: {}
+[2.320758] (-) TimerEvent: {}
+[2.421666] (-) TimerEvent: {}
+[2.522620] (-) TimerEvent: {}
+[2.623481] (-) TimerEvent: {}
+[2.724298] (-) TimerEvent: {}
+[2.825255] (-) TimerEvent: {}
+[2.926188] (-) TimerEvent: {}
+[3.027036] (-) TimerEvent: {}
+[3.127787] (-) TimerEvent: {}
+[3.228550] (-) TimerEvent: {}
+[3.329471] (-) TimerEvent: {}
+[3.430296] (-) TimerEvent: {}
+[3.530901] (-) TimerEvent: {}
+[3.532471] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[3.631243] (-) TimerEvent: {}
+[3.732073] (-) TimerEvent: {}
+[3.787266] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[3.832407] (-) TimerEvent: {}
+[3.892937] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[3.932713] (-) TimerEvent: {}
+[4.035139] (-) TimerEvent: {}
+[4.135948] (-) TimerEvent: {}
+[4.236674] (-) TimerEvent: {}
+[4.337609] (-) TimerEvent: {}
+[4.438457] (-) TimerEvent: {}
+[4.499745] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[4.519718] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[4.538787] (-) TimerEvent: {}
+[4.639545] (-) TimerEvent: {}
+[4.697414] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[4.700379] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[4.739803] (-) TimerEvent: {}
+[4.840536] (-) TimerEvent: {}
+[4.941938] (-) TimerEvent: {}
+[5.042865] (-) TimerEvent: {}
+[5.143538] (-) TimerEvent: {}
+[5.213018] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[5.243883] (-) TimerEvent: {}
+[5.344625] (-) TimerEvent: {}
+[5.407633] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[5.444929] (-) TimerEvent: {}
+[5.545636] (-) TimerEvent: {}
+[5.646397] (-) TimerEvent: {}
+[5.747062] (-) TimerEvent: {}
+[5.847974] (-) TimerEvent: {}
+[5.948884] (-) TimerEvent: {}
+[6.049603] (-) TimerEvent: {}
+[6.150406] (-) TimerEvent: {}
+[6.251354] (-) TimerEvent: {}
+[6.352288] (-) TimerEvent: {}
+[6.448876] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target mimic\n'}
+[6.449406] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[6.452417] (-) TimerEvent: {}
+[6.553133] (-) TimerEvent: {}
+[6.653838] (-) TimerEvent: {}
+[6.695578] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[6.709036] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__py\n'}
+[6.754192] (-) TimerEvent: {}
+[6.854864] (-) TimerEvent: {}
+[6.955598] (-) TimerEvent: {}
+[7.056222] (-) TimerEvent: {}
+[7.083815] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[7.090366] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[7.112537] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[7.156564] (-) TimerEvent: {}
+[7.242467] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[7.256696] (-) TimerEvent: {}
+[7.280319] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.356906] (-) TimerEvent: {}
+[7.402760] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[7.419855] (turtlesim) CommandEnded: {'returncode': 0}
+[7.457058] (-) TimerEvent: {}
+[7.557586] (-) TimerEvent: {}
+[7.658039] (-) TimerEvent: {}
+[7.759367] (-) TimerEvent: {}
+[7.824805] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[7.845458] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim'], 'cwd': '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1317'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:38643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1370,unix/jalil:/tmp/.ICE-unix/1370'), ('INVOCATION_ID', 'e4dc597118114620bb0947e2f6bff72f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e119c741_14d5_46ad_8ae6_11420b2e1d4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.859558] (-) TimerEvent: {}
+[7.912164] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.959895] (-) TimerEvent: {}
+[8.060766] (-) TimerEvent: {}
+[8.092926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[8.093936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.121983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.122735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.123432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[8.123723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[8.124027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[8.124320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[8.124576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[8.124878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.125128] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.155588] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[8.157177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[8.158623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[8.159156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[8.159452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[8.159721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[8.160021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[8.160302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[8.160561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[8.160805] (-) TimerEvent: {}
+[8.161390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[8.161761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[8.162065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[8.162327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[8.162586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[8.162843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[8.163182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[8.163438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[8.163694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[8.163986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[8.164257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[8.164512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[8.164769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[8.165055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[8.165385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[8.165492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[8.165589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.165687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.165784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.165880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[8.166010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[8.166111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[8.166211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[8.166308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[8.166405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[8.166501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[8.166598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[8.166695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[8.166791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[8.189287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[8.190092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[8.261110] (-) TimerEvent: {}
+[8.294564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[8.295074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.295569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.295855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.296081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[8.296360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.296603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.296755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[8.297608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[8.298319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[8.298600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[8.298755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[8.298900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.299046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.299234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[8.299379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[8.299524] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.361471] (-) TimerEvent: {}
+[8.373034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[8.374041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.376204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.376755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.377246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[8.377625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.377908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.378485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.378820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[8.379086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.379352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.379503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.379659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.379803] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.379946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.380088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.380230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[8.380410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.380555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.380701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.461672] (-) TimerEvent: {}
+[8.473469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.474073] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.474461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.474820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.475179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[8.475586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[8.475984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.476274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.476696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[8.477783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[8.478217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[8.478514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[8.478853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[8.479088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[8.479285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[8.479451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[8.479640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[8.479844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[8.480053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.480230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.480341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[8.480461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[8.480592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[8.480693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[8.480792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.561834] (-) TimerEvent: {}
+[8.571882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[8.662193] (-) TimerEvent: {}
+[8.673184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[8.673704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.673983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.674262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.675183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[8.676105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[8.677126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[8.677475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[8.677814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.678287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.678589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[8.678826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[8.679082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[8.680176] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[8.680505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[8.680672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[8.680817] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[8.680948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[8.681069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[8.681166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[8.681287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[8.681386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[8.681482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[8.681580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[8.681677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[8.681793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[8.681889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[8.682021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[8.682120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[8.682216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[8.682309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.682404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.682504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[8.682598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[8.682691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[8.682783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[8.682876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[8.683002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[8.683099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[8.683192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[8.683287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim\n'}
+[8.683382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action\n'}
+[8.683478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail\n'}
+[8.683585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[8.683681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.683776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv\n'}
+[8.683869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail\n'}
+[8.683996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.684091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.684184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.684279] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[8.684374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[8.684470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[8.684566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[8.684660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[8.684761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.684860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.684988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg\n'}
+[8.685082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail\n'}
+[8.685179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[8.685302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.685401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.685496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[8.762350] (-) TimerEvent: {}
+[8.777744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[8.862691] (-) TimerEvent: {}
+[8.911383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[8.912006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[8.912557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[8.942681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[8.962827] (-) TimerEvent: {}
+[9.063505] (-) TimerEvent: {}
+[9.114243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[9.114690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[9.115125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[9.115380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[9.115526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[9.115702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[9.115947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[9.116051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[9.116151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[9.116257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[9.116356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[9.117387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[9.117727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[9.117926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[9.118031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[9.118132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[9.118233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[9.118345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[9.118443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[9.118541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[9.118646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[9.118746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[9.163798] (-) TimerEvent: {}
+[9.208243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.263930] (-) TimerEvent: {}
+[9.276330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.364242] (-) TimerEvent: {}
+[9.376126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.443378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/libturtlesim__python.so\n'}
+[9.464379] (-) TimerEvent: {}
+[9.486230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[9.486741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[9.487107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[9.488202] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[9.489585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[9.490410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[9.491055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[9.492931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[9.494082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[9.494404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[9.496396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[9.496704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[9.497033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[9.497397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[9.497862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[9.498120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[9.498230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[9.498330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[9.498430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[9.498530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[9.498645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[9.498763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[9.498873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[9.498969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[9.499064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[9.499158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[9.564751] (-) TimerEvent: {}
+[9.665495] (-) TimerEvent: {}
+[9.680573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[9.765657] (-) TimerEvent: {}
+[9.769385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[9.865957] (-) TimerEvent: {}
+[9.873520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/turtlesim/draw_square\n'}
+[9.966153] (-) TimerEvent: {}
+[9.974915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/turtlesim/mimic\n'}
+[9.975916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images\n'}
+[10.046335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[10.046930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[10.047348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[10.047714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[10.047935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[10.048099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[10.048267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/launch\n'}
+[10.048435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[10.048599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[10.066415] (-) TimerEvent: {}
+[10.082867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[10.083190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[10.083487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[10.083714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[10.083934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[10.084131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[10.084351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[10.084722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[10.085069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[10.085289] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/package.dsv\n'}
+[10.090302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[10.166762] (-) TimerEvent: {}
+[10.186855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[10.188521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.219758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.221316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.253724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[10.254174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.266914] (-) TimerEvent: {}
+[10.276199] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[10.286499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[10.287118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.287608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.331191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[10.332238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.332944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[10.333875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.334489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.334771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.335035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.335295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.335598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.335857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[10.336110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[10.336367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/share/turtlesim/package.xml\n'}
+[10.367095] (-) TimerEvent: {}
+[10.370540] (turtlesim) CommandEnded: {'returncode': 0}
+[10.467296] (-) TimerEvent: {}
+[10.568167] (-) TimerEvent: {}
+[10.653824] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[10.668458] (-) TimerEvent: {}
+[10.770399] (-) TimerEvent: {}
+[10.806795] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[10.853540] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.870577] (-) TimerEvent: {}
+[10.971258] (-) TimerEvent: {}
+[11.031104] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.068176] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.071431] (-) TimerEvent: {}
+[11.078167] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.099171] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[11.172088] (-) TimerEvent: {}
+[11.218267] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[11.272243] (-) TimerEvent: {}
+[11.274436] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[11.276198] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.372400] (-) TimerEvent: {}
+[11.410227] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.432401] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.433382] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.466795] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[11.472572] (-) TimerEvent: {}
+[11.568643] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[11.569093] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.572715] (-) TimerEvent: {}
+[11.673415] (-) TimerEvent: {}
+[11.773851] (-) TimerEvent: {}
+[11.874246] (-) TimerEvent: {}
+[11.974708] (-) TimerEvent: {}
+[12.075287] (-) TimerEvent: {}
+[12.089897] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[12.175414] (-) TimerEvent: {}
+[12.276046] (-) TimerEvent: {}
+[12.376705] (-) TimerEvent: {}
+[12.477368] (-) TimerEvent: {}
+[12.478139] (my_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.481288] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.482643] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src/my_package/include>\n'}
+[12.483174] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.492683] (my_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.493097] (my_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.494947] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.497415] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.497787] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.499004] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.538298] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.573849] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[12.576761] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package\n'}
+[12.577447] (-) TimerEvent: {}
+[12.583970] (my_package) CommandEnded: {'returncode': 0}
+[12.585000] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[12.589081] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package', '--', '-j2', '-l2'], 'cwd': '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1317'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:38643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1370,unix/jalil:/tmp/.ICE-unix/1370'), ('INVOCATION_ID', 'e4dc597118114620bb0947e2f6bff72f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e119c741_14d5_46ad_8ae6_11420b2e1d4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.654394] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_node\x1b[0m\n'}
+[12.677618] (-) TimerEvent: {}
+[12.691483] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[12.777907] (-) TimerEvent: {}
+[12.878396] (-) TimerEvent: {}
+[12.897301] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[12.975198] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[12.978552] (-) TimerEvent: {}
+[12.992334] (my_package) CommandEnded: {'returncode': 0}
+[13.029758] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[13.030269] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package'], 'cwd': '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maroqi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1317'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maroqi'), ('OLDPWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/src'), ('DESKTOP_SESSION', 'ubuntu'), ('RTI_LICENSE_FILE', '/opt/rti.com/rti_connext_dds-5.3.1/rti_license.dat'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maroqi'), ('JOURNAL_STREAM', '8:38643'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maroqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/maroqi/Apps/android/sdk/tools:/home/maroqi/Apps/android/sdk/platform-tools:/home/maroqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin:/home/maroqi/snap/flutter/common/flutter/bin'), ('SESSION_MANAGER', 'local/jalil:@/tmp/.ICE-unix/1370,unix/jalil:/tmp/.ICE-unix/1370'), ('INVOCATION_ID', 'e4dc597118114620bb0947e2f6bff72f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e119c741_14d5_46ad_8ae6_11420b2e1d4e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('ANDROID_SDK_ROOT', '/home/maroqi/Apps/android/sdk'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/maroqi/Projects/ROS2Projects/ros2-tutorial/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.050737] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.062930] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/lib/my_package/my_node\n'}
+[13.063800] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[13.064379] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[13.064851] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[13.065360] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[13.065793] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/path.sh\n'}
+[13.066357] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/environment/path.dsv\n'}
+[13.066740] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.bash\n'}
+[13.067145] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.sh\n'}
+[13.068491] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.zsh\n'}
+[13.068910] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/local_setup.dsv\n'}
+[13.069498] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/package.dsv\n'}
+[13.069866] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[13.070430] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[13.070805] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[13.071091] (my_package) StdoutLine: {'line': b'-- Installing: /home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/my_package/share/my_package/package.xml\n'}
+[13.075007] (my_package) CommandEnded: {'returncode': 0}
+[13.078661] (-) TimerEvent: {}
+[13.149037] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[13.150652] (-) EventReactorShutdown: {}
