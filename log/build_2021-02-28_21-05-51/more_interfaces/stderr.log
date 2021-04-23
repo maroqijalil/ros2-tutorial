@@ -1,4 +1,0 @@
-CMake Error at CMakeLists.txt:36 (install):
-  install TARGETS given target "DESTINATIONS" which does not exist.
-
-

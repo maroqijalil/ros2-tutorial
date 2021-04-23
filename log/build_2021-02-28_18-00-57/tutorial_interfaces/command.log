@@ -1,2 +1,0 @@
-Invoking command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces': /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces -- -j2 -l2
-Invoked command in '/home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/maroqi/Projects/ROS2Projects/first_ws/build/tutorial_interfaces -- -j2 -l2
