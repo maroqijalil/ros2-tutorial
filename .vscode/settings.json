@@ -1,7 +1,0 @@
-{
-    "python.autoComplete.extraPaths": [
-        "/home/maroqi/Projects/ROS2Projects/ros2-tutorial/install/turtlesim/lib/python3.8/site-packages",
-        "/opt/ros/foxy/lib/python3.8/site-packages"
-    ],
-    "cmake.configureOnOpen": false
-}
