@@ -43,8 +43,15 @@ target_include_directories(main_test PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_link_libraries(main_test ${PROJECT_NAME})
 
+add_executable(subscriber_test "src/subscriber_test.cpp")
+target_include_directories(subscriber_test PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(subscriber_test ${PROJECT_NAME})
+
 install(TARGETS
   main_test
+  subscriber_test
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
