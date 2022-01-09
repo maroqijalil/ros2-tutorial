@@ -16,4 +16,4 @@ private:
   std::shared_ptr<FooNode> foo_node;
 
   std::shared_ptr<BarNode> bar_node;
-}
+};

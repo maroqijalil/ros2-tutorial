@@ -10,4 +10,4 @@ public:
 
 private:
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr bar_publisher;
-}
+};
