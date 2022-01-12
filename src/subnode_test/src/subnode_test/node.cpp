@@ -8,14 +8,14 @@
 
 using namespace std::chrono_literals;
 
-Node::Node(const std::string & node_name)
-: rclcpp::Node(node_name)
+Node::Node(rclcpp::Node::SharedPtr node)
+: node(node)
 {
-  foo_node = std::make_shared<FooNode>(this->create_sub_node("foo"));
+  foo_node = std::make_shared<FooNode>(node);
 
-  bar_node = std::make_shared<BarNode>(this->create_sub_node("bar"));
+  bar_node = std::make_shared<BarNode>(node->create_sub_node("bar"));
 
-  node_timer = this->create_wall_timer(
+  node_timer = node->create_wall_timer(
     8ms,
     [this] () {
       foo_node->publish();

@@ -11,5 +11,5 @@ public:
 private:
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr foo_publisher;
 
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr foo_subscriber;
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr bar_subscriber;
 };

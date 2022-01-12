@@ -5,12 +5,13 @@
 #include "subnode_test/foo/foo_node.hpp"
 #include "subnode_test/bar/bar_node.hpp"
 
-class Node : public rclcpp::Node
+class Node
 {
 public:
-  Node(const std::string & node_name);
+  Node(rclcpp::Node::SharedPtr node);
 
 private:
+  rclcpp::Node::SharedPtr node;
   rclcpp::TimerBase::SharedPtr node_timer;
 
   std::shared_ptr<FooNode> foo_node;
