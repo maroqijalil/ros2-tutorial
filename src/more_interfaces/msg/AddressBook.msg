@@ -6,3 +6,4 @@ string last_name
 bool gender
 uint8 age
 string address
+float64 dir

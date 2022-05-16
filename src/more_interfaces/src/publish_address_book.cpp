@@ -10,7 +10,7 @@ class AddressBookPublisher : public rclcpp::Node
 {
 public:
   AddressBookPublisher()
-  : Node("address_book_publisher")
+  : Node("address_book_publisher"), dir(0.0)
   {
     address_book_publisher_ =
       this->create_publisher<more_interfaces::msg::AddressBook>("address_book", 10);
@@ -18,14 +18,14 @@ public:
     auto publish_msg = [this]() -> void {
         auto message = more_interfaces::msg::AddressBook();
 
-        message.first_name = "John";
         message.last_name = "Doe";
         message.age = 30;
         message.gender = message.MALE;
         message.address = "unknown";
+        message.dir = dir++;
 
         std::cout << "Publishing Contact\nFirst:" << message.first_name <<
-          "  Last:" << message.last_name << std::endl;
+          "  Last:" << message.dir << std::endl;
 
         this->address_book_publisher_->publish(message);
       };
@@ -35,6 +35,7 @@ public:
 private:
   rclcpp::Publisher<more_interfaces::msg::AddressBook>::SharedPtr address_book_publisher_;
   rclcpp::TimerBase::SharedPtr timer_;
+  double dir;
 };
 
 

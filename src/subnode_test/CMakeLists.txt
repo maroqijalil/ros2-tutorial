@@ -15,6 +15,7 @@ endif()
 
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(more_interfaces REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
   "src/${PROJECT_NAME}/bar/bar_node.cpp"
@@ -27,6 +28,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
+  more_interfaces
   std_msgs)
 
 install(DIRECTORY "include" DESTINATION ".")

@@ -1,9 +1,9 @@
 #include <memory>
 #include <string>
 
+#include "more_interfaces/msg/address_book.hpp"
+#include "std_msgs/msg/string.hpp"
 #include "rclcpp/rclcpp.hpp"
-#include "subnode_test/foo/foo_node.hpp"
-#include "subnode_test/bar/bar_node.hpp"
 
 class Node
 {
@@ -14,7 +14,9 @@ private:
   rclcpp::Node::SharedPtr node;
   rclcpp::TimerBase::SharedPtr node_timer;
 
-  std::shared_ptr<FooNode> foo_node;
+  std::string string;
+  double time;
+  double prev_time;
 
-  std::shared_ptr<BarNode> bar_node;
+  rclcpp::Subscription<more_interfaces::msg::AddressBook>::SharedPtr subscriber;
 };
