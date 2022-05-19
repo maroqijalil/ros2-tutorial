@@ -13,11 +13,8 @@ int main(int argc, char * argv[])
   auto node = std::make_shared<rclcpp::Node>("kansei_node"); 
   auto kanesi_node = std::make_shared<Node>(node);
 
-  rclcpp::Rate rcl_rate(2s);
-  while (rclcpp::ok()) {
-    rcl_rate.sleep();
-    rclcpp::spin_some(node);
-  }
+  rclcpp::spin(node);
+  rclcpp::shutdown();
 
   return 0;
 }

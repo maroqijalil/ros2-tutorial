@@ -15,6 +15,7 @@ endif()
 
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
 find_package(more_interfaces REQUIRED)
 
 add_library(${PROJECT_NAME} SHARED
@@ -29,7 +30,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
   more_interfaces
-  std_msgs)
+  std_msgs
+  std_srvs)
 
 install(DIRECTORY "include" DESTINATION ".")
 
@@ -51,9 +53,23 @@ target_include_directories(subscriber_test PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_link_libraries(subscriber_test ${PROJECT_NAME})
 
+add_executable(client "src/client.cpp")
+target_include_directories(client PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(client ${PROJECT_NAME})
+
+add_executable(subscriber "src/subscriber.cpp")
+target_include_directories(subscriber PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_link_libraries(subscriber ${PROJECT_NAME})
+
 install(TARGETS
   main_test
   subscriber_test
+  client
+  subscriber
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
@@ -63,7 +79,8 @@ endif()
 
 ament_export_dependencies(
   rclcpp
-  std_msgs)
+  std_msgs
+  std_srvs)
 ament_export_include_directories("include")
 ament_export_libraries(${PROJECT_NAME})
 ament_package()
